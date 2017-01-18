@@ -1,15 +1,15 @@
 #!/usr/bin/env/ python
 # -*- coding: utf-8 -*-
-import unittest 
+import unittest
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 class SeleniumTest(unittest.TestCase):
 	def setUp(self):
-		self.driver = webdriver.Firefox()
+		self.driver = webdriver.Chrome()
 
 	def tearDown(self):
-		pass 
+		pass
 		#self.driver.close()
 
 #para correr el servidor se usa el comando *nosetests "programa"
@@ -21,12 +21,12 @@ class SeleniumTest(unittest.TestCase):
 		search_2 = self.driver.find_element_by_name('contrasenia')
 		button = self.driver.find_element_by_class_name('button')
 
-		search.send_keys('312085032')
-		search_2.send_keys('12081995')
+		search.send_keys('106004731')
+		search_2.send_keys('09071993')
 		button.click()
-		
+
 		evaluar =  self.driver.find_element_by_link_text('Evaluar Cursos').click()
-		
+
 		button_2 = self.driver.find_element_by_class_name('button')
 		button_2.click()
 
