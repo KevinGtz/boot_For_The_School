@@ -12,6 +12,7 @@ Como correrlo:
   
 2. Pasos:
 Si utilizaran un entorno virtual:
+
       1. Crearlo: virtualenv --python=python2.7 "nombre_del_entorno"
       
       2. Activarlo: source "nombre_del_entorno"/bin/activate
@@ -24,7 +25,8 @@ Si utilizaran un entorno virtual:
       
       6. Correrlo: python chrome_driver.py
     
-    Si no utilizaras un entorno virtual:
+Si no utilizaras un entorno virtual:
+
       1. installar Selenium de manera global: pip install selenium
       
       2. Descargar la herramienta ChromeDriver - Webdriber (https://sites.google.com/a/chromium.org/chromedriver/downloads), descomprimirla, y colocar el descomprimido en el path indicado para cada sistema operativo.
