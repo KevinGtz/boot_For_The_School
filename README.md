@@ -13,8 +13,8 @@ Como correrlo:
 2. Pasos:
 
 Si utilizaran un entorno virtual:
-
-      1. Crearlo: virtualenv --python=python2.7 "nombre_del_entorno"
+      
+      1. Crearlo: virtualenv --python=python2.7 "nombre_del_entorno"
       
       2. Activarlo: source "nombre_del_entorno"/bin/activate
       
