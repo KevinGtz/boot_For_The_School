@@ -1,8 +1,13 @@
+#!/usr/bin/env/ python
+# -*- coding: utf-8 -*-
+
 # This is a test in order to use Chrome driver extention for manipulate Chrome
 import time
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+
+from llaves import numero_de_cuenta, contrasenia
 
 
 def open_aragon_page():
@@ -12,8 +17,8 @@ def open_aragon_page():
     search_2 = driver.find_element_by_name('contrasenia')
     button = driver.find_element_by_class_name('button')
 
-    search.send_keys('106004731')
-    search_2.send_keys('09071993')
+    search.send_keys(numero_de_cuenta)
+    search_2.send_keys(contrasenia)
     button.click()
 
     evaluar = driver.find_element_by_link_text('Evaluar Cursos').click()
