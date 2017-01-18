@@ -22,6 +22,24 @@ Si utilizaran un entorno virtual:
       
       4. Descargar la herramienta ChromeDriver - Webdriber, descomprimirla, y colocar el descomprimido en el path indicado para cada sistema operativo.
       
+      En el caso de MacOS:
+      
+        1. Descomprimir el archivo:
+        unzip "nombre_del_archivo"
+        
+        2. Mover el descomprimido a el path correspondiente:
+        mv "nombre_del_descomprimido" /usr/local/bin/
+        
+        3. Reiniciar la terminal.
+          
+      En el caso de Ubuntu:
+      
+        1. Descomprimir el archivo:
+        unzip "nombre_del_archivo"
+            
+        2. Mover el descomprimido a el path correspondiente:
+        sudo mv "nombre_del_descomprimido" /usr/local/bin/
+      
       5. Agregar sus correspondientes llaves en el archivo de llaves.py
       
       6. Correrlo: python chrome_driver.py
