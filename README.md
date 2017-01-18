@@ -11,6 +11,7 @@ Como correrlo:
     - De igual manera necesita del Webdriver de Chrome para funcionar (https://sites.google.com/a/chromium.org/chromedriver/downloads), este debe descargarse, descomprimirse, y colocarse en el path indicado, en caso de macOS se guarda en /usr/local/bin/"chromedriver".  
   
 2. Pasos:
+
 Si utilizaran un entorno virtual:
 
       1. Crearlo: virtualenv --python=python2.7 "nombre_del_entorno"
@@ -31,23 +32,30 @@ Si no utilizaras un entorno virtual:
       
       2. Descargar la herramienta ChromeDriver - Webdriber (https://sites.google.com/a/chromium.org/chromedriver/downloads), descomprimirla, y colocar el descomprimido en el path indicado para cada sistema operativo.
       
-      En el caso de MacOS:      
-        1. Descomprimir el archivo: 
-            unzip "nombre_del_archivo"
+      En el caso de MacOS:
+      
+        1. Descomprimir el archivo:
+        unzip "nombre_del_archivo"
+        
         2. Mover el descomprimido a el path correspondiente:
-                mv "nombre_del_descomprimido" /usr/local/bin/
+        mv "nombre_del_descomprimido" /usr/local/bin/
+        
         3. Reiniciar la terminal.
           
-      En el caso de Ubuntu:  
-        1. Descomprimir el archivo: 
-            unzip "nombre_del_archivo"
-        2. Mover el descomprimido a el path correspondiente:
-            sudo mv "nombre_del_descomprimido" /usr/local/bin/
-        3. Reiniciar la terminal.
-  
-      5. Agregar sus correspondientes llaves en el archivo de llaves.py
+      En el caso de Ubuntu:
       
-      6. Correrlo: python chrome_driver.py
+        1. Descomprimir el archivo:
+        unzip "nombre_del_archivo"
+            
+        2. Mover el descomprimido a el path correspondiente:
+        sudo mv "nombre_del_descomprimido" /usr/local/bin/
+        
+           
+        3. Reiniciar la terminal.
+        
+        5. Agregar sus correspondientes llaves en el archivo de llaves.py
+        
+        6. Correrlo: python chrome_driver.py
       
 ** Este programa requiere tanto de Python 2.7 como de su manejador de paquetes PIP para poder funcionar correctamente. 
       
