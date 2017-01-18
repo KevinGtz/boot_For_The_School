@@ -6,12 +6,12 @@ El programa desarrollado con el driver de Chrome es actualmente operativo.
 Como correrlo:
 
 1. Preparar el ambiente:
-  - Este requiere de Selenium instalado (http://selenium-python.readthedocs.io/installation.html), ya sea en un entorno virtual o de manera global, para funcionar correctamente.
-  - Si utilizaran un etorno virtual recomiendo virtualvenv con Python 2.7.
-  - De igual manera necesita del Webdriver de Chrome para funcionar (https://sites.google.com/a/chromium.org/chromedriver/downloads), este debe descargarse, descomprimirse, y colocarse en el path indicado, en caso de macOS se guarda en /usr/local/bin/"chromedriver".  
+    - Este requiere de Selenium instalado (http://selenium-python.readthedocs.io/installation.html), ya sea en un entorno virtual o de manera global, para funcionar correctamente.
+    - Si utilizaran un etorno virtual recomiendo virtualvenv con Python 2.7.
+    - De igual manera necesita del Webdriver de Chrome para funcionar (https://sites.google.com/a/chromium.org/chromedriver/downloads), este debe descargarse, descomprimirse, y colocarse en el path indicado, en caso de macOS se guarda en /usr/local/bin/"chromedriver".  
   
 2. Pasos:
-    Si utilizaran un entorno virtual:
+Si utilizaran un entorno virtual:
       1. Crearlo: virtualenv --python=python2.7 "nombre_del_entorno"
       
       2. Activarlo: source "nombre_del_entorno"/bin/activate
@@ -28,19 +28,20 @@ Como correrlo:
       1. installar Selenium de manera global: pip install selenium
       
       2. Descargar la herramienta ChromeDriver - Webdriber (https://sites.google.com/a/chromium.org/chromedriver/downloads), descomprimirla, y colocar el descomprimido en el path indicado para cada sistema operativo.
-          En el caso de MacOS:
-            1. Descomprimir el archivo: 
-                unzip "nombre_del_archivo"
-            2. Mover el descomprimido a el path correspondiente:
+      
+      En el caso de MacOS:      
+        1. Descomprimir el archivo: 
+            unzip "nombre_del_archivo"
+        2. Mover el descomprimido a el path correspondiente:
                 mv "nombre_del_descomprimido" /usr/local/bin/
-            3. Reiniciar la terminal.
+        3. Reiniciar la terminal.
           
-          En el caso de Ubuntu:
-            1. Descomprimir el archivo: 
-                unzip "nombre_del_archivo"
-            2. Mover el descomprimido a el path correspondiente:
-                sudo mv "nombre_del_descomprimido" /usr/local/bin/
-            3. Reiniciar la terminal.
+      En el caso de Ubuntu:  
+        1. Descomprimir el archivo: 
+            unzip "nombre_del_archivo"
+        2. Mover el descomprimido a el path correspondiente:
+            sudo mv "nombre_del_descomprimido" /usr/local/bin/
+        3. Reiniciar la terminal.
   
       5. Agregar sus correspondientes llaves en el archivo de llaves.py
       
